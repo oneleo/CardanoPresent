@@ -1,0 +1,193 @@
+Cardano ADA 臺灣研究社
+什麼是 Cardano？
+18:30 16 Mar 2018
+Tags: Cardano, ADA, Daedalus, Ouroboros
+
+陳敬翔
+中華電信, IaaS 服務專員
+oneleo@cht.com.tw
+https://www.facebook.com/oneleo760823
+@oneleo760823
+
+# --------------------------------------------------
+
+* About us
+
+.image ./images/Person.png 263 750
+
+- 一月初從平常的 FB 和大學同學聯絡感情中得知有人從投資加密貨幣中獲利不少。
+
+- 而大家在看了[[https://zhuanlan.zhihu.com/p/32534900][這一篇]]對 Cardano 及 Telegram 中文群的簡介後，覺得項目不錯就入坑了；
+
+- 而我則提議：「既然都投資了，不如就集結同學間實力，來研究並開設 ADA 礦池，如何？」
+
+- 於是就創立現在以資訊交流為前題的 [[https://www.facebook.com/groups/ada.tw/][Cardano ADA 臺灣研究社]] Facebook 社團。
+
+# --------------------------------------------------
+
+* 什麼是 Cardano？
+
+# --------------------------------------------------
+
+* 來看看希多的介紹
+
+- 完全開源。（[[https://github.com/input-output-hk/cardano-sl/][Github]]）
+- 由研究為主導，嚴格採數學方法證明安全的區塊鏈。
+- 目標不是建構類似以太坊、智慧合約平台，而是建構全新分層次的區塊鏈生態系統。
+- 直接競爭對手將為比特幣、以太坊。
+- 開發成員由一群國際化的工程師和科學家組成。
+
+.image ./images/BitWhale.png 240 450
+
+- 參考：Youtube - 希多說幣 - [[https://youtu.be/cdLGjVTKlQc][Cardano—世界第一個經過數理驗證的區塊鏈]]
+#- （轉自）Steemit：希多說幣 - [[https://steemkr.com/cn/@mreko/cardano-what-is-cardano][Cardano—世界第一個經過數理驗證的區塊鏈]]
+
+#- http://www.xiaob.org/article/364
+#- https://whycardano.com/cn/
+
+# --------------------------------------------------
+
+* 團隊
+
+- 支援 Cardano 使用者社群的 Cardano 基金會。
+- 負責 Cardano 安全研究及開發的 IOHK 公司。擁有頂尖的 Haskell 成員
+- 協助 Cardano 相關企業建立區塊鏈的 Emurgo 投資公司。
+
+- Cardano CEO 查爾斯 Charles 也為以太彷經典的前 CEO，也參與到 BitShare 開發。
+- 與英國 Edinburgh 大學、美國的 Illinois 及 Stanford 大學保持緊密合作。
+- 核心成員超過 50 位以上。最近 Haskell 創始人之一 Philip Wadler 也來協助開發。
+
+# https://steemkr.com/cn/@htliao/cardano
+# https://itw01.com/G2INE62.html
+# https://cardanofoundation.org/cn/press/cardano-a-blockchain-with-privacy-and-regulation/
+# https://www.theedwin.me/single-post/2018/03/07/%E3%80%90%E5%B0%8F%E8%B5%84%E6%8E%A8%E8%8D%90%E3%80%91%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81-Project-Cardano-ADA
+
+.image ./images/CEO.png 248 500
+
+# --------------------------------------------------
+
+* Cardano 的雙層式架構
+
+- 為了解決比特幣及以太坊協議更新需硬分岔一途，可採投票的方式來進行決議
+- 1、清算層 Settlement Layer：目前已開發完成，Cardano 代幣 ADA 在此層流動。
+- 2、運算層 Compute Layer：將在此層提供智慧合約、身份認證、訊息通訊等功能。
+- 主要有：抵抗量子攻擊演算法、未來可使用 Ledger Nano S 硬體錢包、IELE 虛擬機、Delegated Proof of Stake（DPOS）共識算法、Daedalus 錢包
+
+.image ./images/MultiLayer.PNG 230 500
+
+- 註：目前已知 Tezos、Decred 也具備投票機制，也是為了有效解決硬分岔議題。
+
+# --------------------------------------------------
+
+* 抵抗量子演算法
+
+- Cardano 使用 BLISS 抵抗量子攻擊簽名方案
+- 使得未來就算量子電腦發展已到能破壞橢圓曲線加密技術，仍可防止資金被竊。
+
+.image ./images/GoogleQtum.png 387 750
+
+- 註：目前已知 NEO、IOTA 也具備抵抗量子攻擊能力。
+
+#- https://www.weibo.com/ttarticle/p/show?id=2309404198590464551326
+#- https://media.weibo.cn/article?object_id=1022%3A2309404199058272083733&url_type=39&object_type=article&pos=1&luicode=10000011&lfid=1076031909027022&id=2309404199058272083733&ep=FFyXpkcJA,1909027022,FFyXpkcJA,1909027022
+
+#- https://www.facebook.com/ssuhan.chen.5/videos/1830045347008616/?hc_ref=ARS4okaC_Es3bVRB42DE-l2nEjMfh62silIOGzUYPcVo-pDXjY1gtitXWoagINJcfp8
+#- https://zhuanlan.zhihu.com/p/33776634
+#- https://cloud.tencent.com/developer/article/1015123
+
+# --------------------------------------------------
+
+* 未來可使用 Ledger Nano S 硬體錢包
+
+- 將私鑰（密碼）和網路隔離
+- 提領加密貨幣時需按下實體按鈕才能進行
+- 故障可使用全新的 Ledger 錢包 + 24 組助憶詞復原
+
+.image ./images/LedgerWallet.png 397 750
+
+# --------------------------------------------------
+
+* IELE 虛擬機
+
+- 在以太坊上所開發的 DAPPs 將可直接平行轉移至 Cardano 運算層上執行
+
+.image ./images/IELE_VM.png 459 750
+
+# --------------------------------------------------
+
+* Delegated Proof of Stake（DPOS）委任股權共識算法（1／2）
+
+- Proof of Work（POW）透過不斷窮舉 Hash(N) 值，最先找到 N 的人可取得此區塊的記帳權，及此區塊內的所有手續費。理論上計帳者的選定是完全公平的，而算力越高越易取得計帳權。
+
+- Proof of Stake（POS）在均勻機率分配下，根據手持代幣數來取得記帳權，及此區塊內的所有手續費。有些區塊鏈需要擁有足夠的代幣量才能有參與權。理論上計帳者的選定是完全公平的，而代幣持有越多者越易取得記帳權。
+
+.image ./images/POW_POS.png 254 500
+
+- 參考：維基百科 - [[https://zh.wikipedia.org/wiki/%E5%B7%A5%E4%BD%9C%E9%87%8F%E8%AD%89%E6%98%8E][工作量證明（POW）]]、[[https://zh.wikipedia.org/wiki/%E6%8C%81%E6%9C%89%E9%87%8F%E8%AD%89%E6%98%8E][持有量證明（POS）]]
+
+#- https://forum.cardano.org/t/3-2-emurgo-live-stream/8969
+#- https://www.facebook.com/groups/ada.tw/permalink/2038505419730576/
+#- http://blog.csdn.net/omnispace/article/details/79328095
+#- http://blog.csdn.net/omnispace/article/details/79326108
+
+# --------------------------------------------------
+
+* Delegated Proof of Stake（DPOS）委任股權共識算法（2／2）
+
+- 委任表示既可以直接參與投票，也可以委派任何一個代表人幫你投，甚至委派人也可以委派其他人投票。而 Cardano 的 DPOS 委任分為重量級委任及輕量級委任。
+
+- 重量級委任需擁有 ADA 總量的 0.03% → 45,000,000,000 ADA * 0.03% = 13,500,000 ADA 才具資格，且可參與 Cardano 運算層 Compute Layer 的更新投票。
+
+- 輕量級委任僅能參與產生區塊而已。
+
+.image ./images/DPOS.jpg 220 300
+
+- 參考：[[https://zhuanlan.zhihu.com/p/33875952][Cardano(ADA)的財務系統是什麼？]]、[[https://cardanodocs.com/technical/delegation/cn/][卡爾達諾結算層股權委派]]
+- 註：為防止 DDoS 攻擊，ADA 交易上仍需支付一筆較低廉的手續費。
+#- 參考：[[https://cardanodocs.com/cardano/transaction-fees/cn/][卡爾達諾結算層的轉賬費用]]
+# --------------------------------------------------
+
+* Daedalus 錢包
+
+- 目前只有全節點錢包（[[https://daedaluswallet.io/#download][下載點]]），安裝後會先同步所有區塊，此時需耐心等待（12 至 36 小時）。同步後才能進行後續操作。
+- 新增錢包帳戶會要求記下 12 組英文助憶詞，一組帳戶可新增多組錢包位址。
+
+- Daedalus 預設安裝位置：C:\Program Files\Daedalus
+- 區塊同步位置：%USERPROFILE%\AppData\Roaming\Daedalus
+- Cardano 錢包／交易查詢網址：[[https://cardanoexplorer.com/][https://cardanoexplorer.com/]]
+
+.image ./images/VM_Daedalus.png 281 500
+
+# --------------------------------------------------
+
+* Cardano 目前仍積極至各國推廣
+
+- CEO 查爾斯 Charles 認為除了要讓 Cardano 擁有正式規範及足夠的驗證外，下一步要花費相當多的時間及精力在教育用戶，如：正確的使用客戶端軟體、認知到區塊鏈是安全的。
+
+- Cardano 作為未來 50 年內如同 TCP/IP 協定的存在，並與發展中國家的金融體系並行運作，最終消耗 ADA（如同 Ripple 網路消耗 XRP），從外部逐漸去改善財經體系，這不同於 Ripple 由內而外去作轉變（Ripple 是為取代 SWIFT 全球金融交易協定而生）。
+
+.image ./images/LSE.jpg 214 225
+
+參考：[[https://www.facebook.com/groups/ada.tw/permalink/2038505419730576/][與 Charles 的訪談內容]]
+參考：[[https://zhuanlan.zhihu.com/p/34264409?group_id=954310096117776384][ADA 的非洲和發展中國家計畫]]
+
+# --------------------------------------------------
+
+* Cardano 的 GirHub 提交量
+
+- Cardano 的 Github 提交量非常活躍，達到了驚人的 13000+ 的提交。
+
+.image ./images/CoinCheckup.png 324 750
+
+- 參考：[[https://coincheckup.com/analysis][CoinCheckup]]
+- 參考：[[https://github.com/input-output-hk/cardano-sl/][cardano-sl - Github]]
+
+# --------------------------------------------------
+
+* 介紹完畢，感謝各位！
+
+- 祝各位賺好賺滿旺旺旺！
+
+.image ./images/AdaWorld.jpg 500 459
+
+# --------------------------------------------------
