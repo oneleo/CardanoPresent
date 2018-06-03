@@ -15,8 +15,10 @@ Installation and Usage
     Browse: http://127.0.0.1:3999/
 
 #### (2) Browse Directly:
-[http://go-talks.appspot.com/github.com/oneleo/CardanoPresent/CardanoPresent.slide](http://go-talks.appspot.com/github.com/oneleo/CardanoPresent/CardanoPresent.slide)
-[https://go-talks.appspot.com/github.com/oneleo/CardanoPresent/CardanoIntroduction-20180605.slide](https://go-talks.appspot.com/github.com/oneleo/CardanoPresent/CardanoIntroduction-20180605.slide)
+
+1. [http://go-talks.appspot.com/github.com/oneleo/CardanoPresent/CardanoPresent.slide](http://go-talks.appspot.com/github.com/oneleo/CardanoPresent/CardanoPresent.slide)
+
+2. [https://go-talks.appspot.com/github.com/oneleo/CardanoPresent/CardanoIntroduction-20180605.slide](https://go-talks.appspot.com/github.com/oneleo/CardanoPresent/CardanoIntroduction-20180605.slide)
 
 Inspired By
 =============
