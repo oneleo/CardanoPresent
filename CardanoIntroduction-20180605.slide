@@ -21,6 +21,8 @@ https://www.facebook.com/oneleo760823
 
 - → → → 所以和相安大讀書會家長自告奮勇，想簡單介紹什麼是 Cardano。另外也讓 Solidity 開發人員多一個區塊鏈的選擇。而未來 Cardano 所推出的 Plutus 語言（Haskell-Like）出來後也想來研究看看。
 
+- ----------------------------------------------------------------------------------------------------
+
 - 最後因為 Cardano 的內容博大精深，所以某些較深入的內容我也仍在學習中，若有高手願意的話也可來一起討論。
 
 - 本投影片最後有放非常多參考資料，可當作是區塊鏈大補帖。
@@ -96,7 +98,7 @@ https://www.facebook.com/oneleo760823
 
 * Cardano 程式碼特性
 
-- 核心開發語言 [[https://zh.wikipedia.org/wiki/Haskell][Haskell]] 不同於一般為純函數程式語言，學習門檻稍高。
+- 核心開發語言 [[https://zh.wikipedia.org/wiki/Haskell][Haskell]] 不同於一般語言，它為純函數程式語言，學習門檻稍高。
 - 因其強型別、不可變的數據結構而有著[[https://www.zhihu.com/question/279186206][高安全度]]。
 - 可以極大化的避免因為漏洞導致被駭客入侵的風險。
 
@@ -109,7 +111,7 @@ https://www.facebook.com/oneleo760823
 - 為了解決比特幣及以太坊協議更新需硬分岔一途，可採投票的方式來進行決議
 - 1、清算層 Settlement Layer：目前已開發完成，Cardano 代幣 ADA 在此層流動。
 - 2、運算層 Compute Layer：將在此層提供智慧合約、身份認證、訊息通訊等功能。
-- 主要有：抵抗量子攻擊演算法、未來可使用 Ledger Nano S 硬體錢包、IELE 虛擬機、Delegated Proof of Stake（DPOS）共識算法、Daedalus 錢包
+- 主要有：抵抗量子攻擊演算法、未來可使用 Ledger Nano S 硬體錢包、KEVM／IELE 虛擬機、Delegated Proof of Stake（DPOS）共識算法、Daedalus 錢包
 
 .image ./images/MultiLayer.PNG 230 500
 
@@ -156,7 +158,7 @@ https://www.facebook.com/oneleo760823
 * KEVM、IELE 虛擬機及測試網路（2／3）
 - 官方 5/28 開放的第一個智能合約測試網路為【KEVM】TestNets（[[https://testnet.iohkdev.io/goguen/][點此下載]]）
 - 第二個【IELE】TestNets 測試網路將於 7 月推出
-- KEVM 測網使用 Solidity 語言來撰寫智能合約（Solidity-to-EVM 編譯較不安全）
+- KEVM 測網使用 Solidity 語言來撰寫智能合約（Solidity-to-EVM 編譯較不推薦）
 - IELE 測網可用 Solidity、Plutus、Java、Python 等語言（IELE-to-IELE 編譯較安全）。
 .image ./images/SmartContracts.jpg 350 704
 
@@ -231,7 +233,7 @@ https://www.facebook.com/oneleo760823
 
 - 2017/9 時，[[http://blockcast.it/2018/04/06/foxconn-to-manufacture-blockchain-phone-from-sirin-labs/][以色列]]的新創公司 Sirin Labs 將請鴻海子公司富智康生產支援 Cardano 等區塊鏈網路的手機 Finney。使用者除了可設置簡易密碼外，亦可透過如：虹膜掃瞄、指紋辨識等技術來管理錢包地址及私鑰。而 Finney 預計於 2018/10 出貨。
 
-- 2018/5 時，[[http://pocketcoin.tw/cardano%E7%94%A8%E5%8D%80%E5%A1%8A%E9%8F%88%E6%8A%80%E8%A1%93%E5%B9%AB%E8%A1%A3%E7%B4%A2%E6%AF%94%E4%BA%9E%E7%94%9F%E7%94%A2%E5%92%96%E5%95%A1%EF%BC%81][衣索比亞]]科技部宣佈與 Cardano 合作，透過區塊鏈技術，解決發展國家的命脈產業 - 農業的問題，如：追蹤咖啡生產、土地所有權／使用權登記等。另外 Cardano 也會培訓第一批當地以女性為主的智能合約開發人員。
+- 2018/5 時，[[http://pocketcoin.tw/cardano%E7%94%A8%E5%8D%80%E5%A1%8A%E9%8F%88%E6%8A%80%E8%A1%93%E5%B9%AB%E8%A1%A3%E7%B4%A2%E6%AF%94%E4%BA%9E%E7%94%9F%E7%94%A2%E5%92%96%E5%95%A1%EF%BC%81][衣索比亞]]科技部宣佈與 Cardano 合作，透過區塊鏈技術，解決發展國家的命脈產業 - 農業的問題，如：追蹤咖啡生產、土地所有權／使用權登記、解決土地糾紛等。另外 Cardano 也會培訓第一批當地以女性為主的智能合約開發團隊。
 
 .image ./images/CardanoNews.png 285 700
 
@@ -259,13 +261,18 @@ https://www.facebook.com/oneleo760823
 * Daedalus 錢包
 
 - 目前只有全節點錢包（[[https://daedaluswallet.io/#download][下載點]]），安裝後會先同步所有區塊，此時需耐心等待（12 至 36 小時）。同步後才能進行後續操作。
+
 - 新增錢包帳戶會要求記下 12 組英文助憶詞，一組帳戶可新增多組錢包位址。
 
+- 使用者可自行選擇[[https://cardanodocs.com/cardano/transaction-assurance/cn/][交易確認等級]]（Normal 或 Strict）來防範[[https://zh.wikipedia.org/wiki/%E9%9B%99%E9%87%8D%E6%94%AF%E4%BB%98][雙重支付]]攻擊。
+
 - Daedalus 預設安裝位置：C:\Program Files\Daedalus
+
 - 區塊同步位置：%USERPROFILE%\AppData\Roaming\Daedalus
+
 - 註：Cardano 錢包／交易查詢網址：[[https://cardanoexplorer.com/][https://cardanoexplorer.com/]]
 
-.image ./images/VM_Daedalus.png 281 500
+.image ./images/VM_Daedalus.png 197 350
 
 # --------------------------------------------------
 
@@ -299,7 +306,7 @@ https://www.facebook.com/oneleo760823
 
 - [[https://cardanoprojects.com/cn/][★ Cardano Projects 和 Cardano 有相關的專案、新創]]
 
-- [[https://cardanowiki.info/wiki/Home][★歡迎來到卡爾達諾維基首頁：國外整理的 Excel]]
+- [[https://cardanowiki.info/wiki/Home][★ 歡迎來到卡爾達諾維基首頁：國外整理的 Excel]]
 
 - [[https://t.me/CardanoHodlers][★ Telegram - Cardano Hodlers]]
 
@@ -369,11 +376,17 @@ https://www.facebook.com/oneleo760823
 
 # --------------------------------------------------
 
-* Haskell 語言學習資源
+* Haskell、Plutus 語言學習資源
 
-- [[https://legacy.gitbook.com/book/mno2/learnyouahaskell-zh/details/zh-cn][Haskell 趣學指南]] 通俗易懂，生動幽默
+- [[https://legacy.gitbook.com/book/mno2/learnyouahaskell-zh/details/zh-cn][Haskell 趣學指南]] ★ 通俗易懂，生動幽默
 
-- [[https://legacy.gitbook.com/book/mno2/learnyouahaskell-zh/details/zh-cn][良葛格學習筆記]] Haskell 專欄文章
+- [[https://legacy.gitbook.com/book/mno2/learnyouahaskell-zh/details/zh-cn][良葛格學習筆記]] ★ Haskell 專欄文章
+
+- [[https://cardanodocs.com/technical/plutus/introduction/cn/][PLUTUS 介紹]] 官方 Plutus 文件
+
+- （英文）[[https://youtu.be/IqA-mI2olFA][「Research; Prof. Philip Wadler, Smart Contracts.」]] Plutus 介紹影片
+
+- （英文）[[https://youtu.be/VZcKQFMEeVY][「Cardano Smart Contracts & VMs Explained」]] Cardano 虛擬機介紹影片
 
 # --------------------------------------------------
 
