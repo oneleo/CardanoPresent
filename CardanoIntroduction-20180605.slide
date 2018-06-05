@@ -19,7 +19,7 @@ https://www.facebook.com/oneleo760823
 
 - 5/28 Cardano 的 KEVM 測網釋出，我們也可在此網上用 Solidity 試寫智能合約。
 
-- → → → 所以和相安大讀書會家長自告奮勇，想簡單介紹什麼是 Cardano。另外也讓 Solidity 開發人員多一個區塊鏈的選擇。而未來 Cardano 所推出的 Plutus 語言（Haskell-Like）出來後也想來研究看看。
+- → → → 所以和讀書會大家長相安大自告奮勇，想簡單介紹什麼是 Cardano。另外也讓 Solidity 開發人員多一個區塊鏈的選擇。而未來 Cardano 所推出的 Plutus 語言（Haskell-Like）出來後也想來研究看看。
 
 - ----------------------------------------------------------------------------------------------------
 
@@ -111,7 +111,7 @@ https://www.facebook.com/oneleo760823
 - 為了解決比特幣及以太坊協議更新需硬分岔一途，可採投票的方式來進行決議
 - 1、清算層 Settlement Layer：目前已開發完成，Cardano 代幣 ADA 在此層流動。
 - 2、運算層 Compute Layer：將在此層提供智慧合約、身份認證、訊息通訊等功能。
-- 主要有：抵抗量子攻擊演算法、未來可使用 Ledger Nano S 硬體錢包、KEVM／IELE 虛擬機、Delegated Proof of Stake（DPOS）共識算法、Daedalus 錢包
+- 主要有：抵抗量子攻擊演算法、未來可使用 Ledger Nano S 硬體錢包、KEVM／IELE 虛擬機、Delegated Proof of Stake（DPOS）共識算法、Daedalus 軟體錢包。
 
 .image ./images/MultiLayer.PNG 230 500
 
@@ -149,7 +149,7 @@ https://www.facebook.com/oneleo760823
 
 * KEVM、IELE 虛擬機及測試網路（1／3）
 
-- 在以太坊上使用 Solidity 語言所開發的 DAPPs 可直接平行轉移至 Cardano 內執行。
+- 在以太坊上使用 Solidity 語言所開發的 DAPPs 可平行轉移至 Cardano 內執行。
 
 .image ./images/IELE_VM.png 459 750
 
