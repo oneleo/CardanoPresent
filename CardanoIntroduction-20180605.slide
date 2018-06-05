@@ -11,11 +11,45 @@ https://www.facebook.com/oneleo760823
 
 # --------------------------------------------------
 
+* 緣由
+
+- 專門研究區塊鏈的學術單位可能也沒聽過 Cardano。
+
+- 聽到凱捷大最近在讀書會講的 Solidity 語言入門實在太讚了。
+
+- 5/28 Cardano 的 KEVM 測網釋出，我們也可在此網上用 Solidity 試寫智能合約。
+
+- → → → 所以和相安大讀書會家長自告奮勇，想簡單介紹什麼是 Cardano。另外也讓 Solidity 開發人員多一個區塊鏈的選擇。而未來 Cardano 所推出的 Plutus 語言（Haskell-Like）出來後也想來研究看看。
+
+- 最後因為 Cardano 的內容實在不少，所以某些較深入的內容我也仍在學習中，若有高手願意的話也可來一起討論。
+
+- 本投影片最後有放非常多參考資料，可當作是區塊鏈大補帖。
+
+- → → → 那我們就開始吧！
+
+# --------------------------------------------------
+
+* 大綱
+
+- 什麼是 Cardano - 簡介、團隊、架構及特性
+
+- Cardano 虛擬機及測試網路
+
+- Cardano 共識算法
+
+- Cardano 錢包
+
+- 如何買 Cardano ADA
+
+- 相關學習資源（豐富）
+
+# --------------------------------------------------
+
 * 什麼是 Cardano？
 
 # --------------------------------------------------
 
-* 來看看希多的介紹
+* 來看看希多的 Cardano 介紹
 
 - 是從 2015 年 10 月發行的項目，並於 2017 年 9 月公開販售。
 - 完全開源。（[[https://github.com/input-output-hk/cardano-sl/][Github]]）
@@ -62,8 +96,8 @@ https://www.facebook.com/oneleo760823
 
 * Cardano 程式碼特性
 
-- 核心開發語言 [[https://zh.wikipedia.org/wiki/Haskell][Haskell]] 不同於一般為純函數程式語言，學習門檻稍微高。
-- 因其強型別、不可變的數據結構而有著高安全度。
+- 核心開發語言 [[https://zh.wikipedia.org/wiki/Haskell][Haskell]] 不同於一般為純函數程式語言，學習門檻稍高。
+- 因其強型別、不可變的數據結構而有著[[https://www.zhihu.com/question/279186206][高安全度]]。
 - 可以極大化的避免因為漏洞導致被駭客入侵的風險。
 
 .image ./images/Haskell.png 419 400
@@ -311,17 +345,17 @@ https://www.facebook.com/oneleo760823
 
 * Cardano 中文新聞發佈平台
 
+- [[https://zhuanlan.zhihu.com/cardano][★ 知乎 - 收集关于 Cardano(ADA) 的优质文章和资讯]]
+
+- [[http://yi-programmer.com/][★ 精確編程]]
+
+- [[https://m.weibo.cn/u/6512640194?uid=6512640194&luicode=20000061&lfid=4233446609816965&featurecode=newtitle][★ 微博 - Cardano]]
+
+- [[https://m.weibo.cn/u/6524505292?uid=6524505292&featurecode=newtitle][★ 微博 - 今天 ADA 歸零了嗎]]
+
 - [[https://www.zhihu.com/topic/20139059/newest][知乎 - Cardano]]
 
-- [[https://zhuanlan.zhihu.com/cardano][知乎 - 收集关于 Cardano(ADA) 的优质文章和资讯]]
-
 - [[https://zhuanlan.zhihu.com/ChangeTheWorld][知乎 - 用代碼改變世界]]
-
-- [[http://yi-programmer.com/][精確編程]]
-
-- [[https://m.weibo.cn/u/6512640194?uid=6512640194&luicode=20000061&lfid=4233446609816965&featurecode=newtitle][微博 - Cardano]]
-
-- [[https://m.weibo.cn/u/6524505292?uid=6524505292&featurecode=newtitle][微博 - 今天ADA歸零了嗎]]
 
 # --------------------------------------------------
 
@@ -332,6 +366,14 @@ https://www.facebook.com/oneleo760823
 - [[http://static.runoob.com/download/blockchain.pdf][《區塊鏈金融應用白皮書》]] 區塊鏈應用發想
 
 - [[https://img.jinse.com/738045.pdf][《區塊鏈基礎理論與研究概況》]] 區塊鏈演算法入門
+
+# --------------------------------------------------
+
+* Haskell 語言學習資源
+
+- [[https://legacy.gitbook.com/book/mno2/learnyouahaskell-zh/details/zh-cn][Haskell 趣學指南]] 通俗易懂，生動幽默
+
+- [[https://legacy.gitbook.com/book/mno2/learnyouahaskell-zh/details/zh-cn][良葛格學習筆記]] Haskell 專欄文章
 
 # --------------------------------------------------
 
@@ -394,6 +436,8 @@ https://www.facebook.com/oneleo760823
 - [[http://alexa.chinaz.com/cardano.org][查看 Cardano 官網流量]]
 
 - [[https://coinmetrics.io/][CoinMetrics - 有提供加密貨幣歷史 CSV 檔下載]]
+
+- [[https://tw.tradingview.com/][TradingView - 可以在加密貨幣走勢圖上作畫]]
 
 # --------------------------------------------------
 
