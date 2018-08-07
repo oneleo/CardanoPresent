@@ -17,8 +17,9 @@ Installation and Usage
 #### (2) Browse Directly:
 
 1. [http://go-talks.appspot.com/github.com/oneleo/CardanoPresent/CardanoPresent.slide](http://go-talks.appspot.com/github.com/oneleo/CardanoPresent/CardanoPresent.slide)
-
 2. [https://go-talks.appspot.com/github.com/oneleo/CardanoPresent/CardanoIntroduction-20180605.slide](https://go-talks.appspot.com/github.com/oneleo/CardanoPresent/CardanoIntroduction-20180605.slide)
+3. [https://go-talks.appspot.com/github.com/oneleo/CardanoPresent/CardanoIntroduction-20180809.slide](https://go-talks.appspot.com/github.com/oneleo/CardanoPresent/CardanoIntroduction-20180809.slide)
+4. [https://go-talks.appspot.com/github.com/oneleo/CardanoPresent/CardanoIntroduction-20180809-lite.slide](https://go-talks.appspot.com/github.com/oneleo/CardanoPresent/CardanoIntroduction-20180809-lite.slide)
 
 Inspired By
 =============
