@@ -312,7 +312,8 @@ https://www.facebook.com/oneleo760823
 
 * About us
 
-.image ./images/Person.png 262 670
+#.image ./images/Person.png 262 670
+.image ./images/PersonNew.png 271 875
 
 - 一月初從平常的 FB 和大學同學聯絡感情中得知有人從投資加密貨幣中獲利不少。
 
